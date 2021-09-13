@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+
+    <title>Image gallery</title>
+
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>修正しました</p>
-    <script src="src/index.js"></script>
+    <h1>Image gallery example</h1>
+</html>
+
+    <div class="full-img">
+      <img class="displayed-img" src="src/images/pic1.jpg" />
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar"></div>
+    <script src="src/main.js"></script>
   </body>
 </html>
